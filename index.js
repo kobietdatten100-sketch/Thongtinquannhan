@@ -25,7 +25,7 @@ client.on("interactionCreate", async interaction => {
 
         const staff = interaction.options.getString("staff");
         const robloxname = interaction.options.getString("robloxname");
-        const profileurl = interaction.options.getString("profileurl");
+        const profileURL = interaction.options.getString("profileurl");
         const gameurl = interaction.options.getString("gameurl");
         const violation = interaction.options.getString("violation");
         const discorduser = interaction.options.getString("discorduser");
