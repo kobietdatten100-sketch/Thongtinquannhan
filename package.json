@@ -4,12 +4,9 @@
   "description": "Discord Blacklist Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
   },
-  "scripts": {
-  "start": "node index.js",
-  "deploy": "node deploy-commands.js"
-  }
   "engines": {
     "node": "22.x"
   },
