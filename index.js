@@ -57,7 +57,7 @@ ${randomUUID()}
             })
             .setTimestamp();
 
-        const channel = interaction.guild.channels.cache.get("1463784605499920415");
+        const channel = interaction.guild.channels.cache.get("1465916175492972575");
 
 await channel.send({
     embeds: [embed]
