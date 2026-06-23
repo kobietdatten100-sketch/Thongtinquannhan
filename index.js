@@ -23,13 +23,13 @@ client.on("interactionCreate", async interaction => {
 
     if (interaction.commandName === "blacklist") {
 
-        const staff = interaction.options.getString("staff");
-        const robloxname = interaction.options.getString("robloxname");
-        const profileurl = interaction.options.getString("profileurl");
-        const gameurl = interaction.options.getString("gameurl");
+        const Staff = interaction.options.getString("staff");
+        const Roblox name = interaction.options.getString("robloxname");
+        const profile URL = interaction.options.getString("profileurl");
+        const game URL = interaction.options.getString("gameurl");
         const violation = interaction.options.getString("violation");
-        const discorduser = interaction.options.getString("discorduser");
-        const discordid = interaction.options.getString("discordid");
+        const discord user = interaction.options.getString("discorduser");
+        const discord ID = interaction.options.getString("discordid");
         const note = interaction.options.getString("note");
 
         const embed = new EmbedBuilder()
@@ -44,8 +44,8 @@ client.on("interactionCreate", async interaction => {
 ${randomUUID()}
 
 **Target:**
-• Roblox Profile Name: ${robloxname}
-• Roblox Profile URL: ${profileurl}
+• Roblox Profile Name: ${Robloxname}
+• Roblox Profile URL: ${profileURL}
 • Violation: ${violation}
 • Discord Username: ${discorduser}
 • Discord ID: ${discordid}
