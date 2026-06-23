@@ -57,8 +57,14 @@ ${randomUUID()}
             })
             .setTimestamp();
 
-        await interaction.reply({
-    content: " Đã thêm vào blacklist",
+        const channel = interaction.guild.channels.cache.get("1463784605499920415");
+
+await channel.send({
+    embeds: [embed]
+});
+
+await interaction.reply({
+    content: "Đã thêm vào blacklist",
     ephemeral: true
 });
     }
