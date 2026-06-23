@@ -58,8 +58,9 @@ ${randomUUID()}
             .setTimestamp();
 
         await interaction.reply({
-            embeds: [embed]
-        });
+    content: " Đã thêm vào blacklist",
+    ephemeral: true
+});
     }
 });
 
