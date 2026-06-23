@@ -44,7 +44,7 @@ client.on("interactionCreate", async interaction => {
 ${randomUUID()}
 
 **Target:**
-• Roblox Profile Name: ${Robloxname}
+• Roblox Profile Name: ${robloxname}
 • Roblox Profile URL: ${profileURL}
 • Violation: ${violation}
 • Discord Username: ${discorduser}
