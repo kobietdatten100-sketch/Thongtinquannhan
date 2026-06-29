@@ -14,7 +14,7 @@ process.on("unhandledRejection", console.error);
 process.on("uncaughtException", console.error);
 
 client.once("ready", () => {
-    console.log(`✅ ${client.user.tag} đã online`);
+    console.log(` ${client.user.tag} đã online`);
 });
 
 client.on("interactionCreate", async interaction => {
@@ -57,14 +57,14 @@ ${randomUUID()}
             })
             .setTimestamp();
 
-        const channel = interaction.guild.channels.cache.get("1465916175492972575");
+        const channel = interaction.guild.channels.cache.get("1520649831536660682");
 
 await channel.send({
     embeds: [embed]
 });
 
 await interaction.reply({
-    content: "Đã thêm vào blacklist",
+    content: " Done blacklist",
     ephemeral: true
 });
     }
